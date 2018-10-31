@@ -8,7 +8,7 @@
     </resultMap>
 
     <select id="findUserById" resultMap="BaseResultMap">
-        select id, name, age from test where id = #{id}
+        select id, name, age from user where id = #{id}
     </select>
 
 </mapper>
