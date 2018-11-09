@@ -1,9 +1,11 @@
 package com.yao.entity;
 
+import java.io.Serializable;
+
 /**
  * Created by yaoqing on 17/4/21.
  */
-public class User {
+public class User implements Serializable {
 
     private Long id;
 
